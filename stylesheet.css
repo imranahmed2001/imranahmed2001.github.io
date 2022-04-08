@@ -132,6 +132,7 @@ span {
 .education {
     width: 90%;
     height: 350px;
+    padding: 20px;
     background: white;
     border-radius: 20px;
     box-shadow: 2px 2px 12px rgba(0,0,0,0.2);
@@ -144,27 +145,33 @@ span {
 .education img{
     height: 10%;
     width: 10%;
-    margin-left: 14%;
+    margin: 0 20px 0 60px;
 }
 .education h1 {
-    text-align: center;
-    margin: 15px;
+    margin-left: 20px;
     font-size: 3em;
     padding: 10px;
 }
 .education-text ul li {
     display: flex;
-    padding: 5px;
+    padding: 5px 10px 0;
     color: #333333;
 }
 .myinfo{
     float: left;
-    margin-left: 80px;
+    margin-left: 100px;
 }
 .mycourses{
     float: right;
-    margin-right: 80px;
+    margin-right: 100px;
 }
+    .mycourses ul {
+        display: inline-block;
+    }
+    .mycourses ul li {
+        color: #333333;
+        padding: 5px 10px 0;
+    }
 .myprojects {
     width: 90%;
     height: 500px;
